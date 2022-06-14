@@ -24,14 +24,16 @@ class contact
         void Setsexe(char); //{ sexe = val; }
 
         void Setadresse (adresse val){adresseC = val;}
-
-        void Setinfoadresse (int num, string rue, string ville, int cp)
+        adresse Getadresse() { return adresseC; }
+        void Setinfoadresse (int num, string rue, string ville, string cp)
         {
             adresseC.Setcp(cp);
             adresseC.Setnum(num);
             adresseC.Setrue(rue);
             adresseC.Setville(ville);
         }
+
+        virtual void affiche();
 
     protected:
 

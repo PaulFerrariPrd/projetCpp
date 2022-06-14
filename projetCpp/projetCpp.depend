@@ -1,38 +1,100 @@
 # depslib dependency file v1.0
-1655115368 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\date.cpp
+1655187972 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\date.cpp
 	"date.h"
+	<iostream>
 
-1655143609 c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\date.h
+1655188042 c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\date.h
 
 1584209020 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\main.cpp
 	<iostream>
 
-1655145420 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\contact.cpp
+1655187448 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\contact.cpp
 	"contact.h"
 	<cctype>
 
-1655144704 c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\contact.h
+1655223519 c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\contact.h
 	<iostream>
 	"adresse.h"
 
-1655115719 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\adresse.cpp
+1655215734 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\adresse.cpp
 	"adresse.h"
 
-1655143149 c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\adresse.h
+1655215734 c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\adresse.h
 	<iostream>
 
-1655143263 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\prive.cpp
+1655219959 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\prive.cpp
 	"prive.h"
+	<cctype>
+	<algorithm>
 
-1655143255 c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\prive.h
+1655223519 c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\prive.h
 	"contact.h"
 	"adresse.h"
 
-1655143406 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\publique.cpp
+1655219910 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\publique.cpp
 	"publique.h"
 
-1655143721 c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\publique.h
+1655223519 c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\publique.h
 	"contact.h"
 	"date.h"
 	"adresse.h"
+
+1551115924 source:c:\users\tenor\onedrive\bureau\travaille\pro\thalesz\ajc\cours\projet c++ - full console -  a donner\projetcpp\projetcpp\sqlite-amalgamation-3270200\sqlite3.c
+	"config.h"
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	<ctype.h>
+	"sqlite3rtree.h"
+	<ctype.h>
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<math.h>
 

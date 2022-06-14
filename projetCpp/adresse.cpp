@@ -1,6 +1,6 @@
 #include "adresse.h"
 
-adresse::adresse(int num, string rue, string ville, int cp)
+adresse::adresse(int num, string rue, string ville, string cp)
 {
     this->Setnum(num);
     this->Setrue(rue);

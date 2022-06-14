@@ -7,7 +7,7 @@
 class adresse
 {
     public:
-        adresse(int num =0, string rue="a", string ville="b", int cp=2);
+        adresse(int num =0, string rue="a", string ville="b", string cp="10");
         virtual ~adresse();
 
         int Getnum() { return num; }
@@ -16,8 +16,8 @@ class adresse
         void Setrue(string val) { rue = val; }
         string Getville() { return ville; }
         void Setville(string val) { ville = val; }
-        int Getcp() { return cp; }
-        void Setcp(int val) { cp = val; }
+        string Getcp() { return cp; }
+        void Setcp(string val) { cp = val; }
 
     protected:
 
@@ -25,7 +25,7 @@ class adresse
         int num;
         string rue;
         string ville;
-        int cp;
+        string cp;
 };
 
 #endif // ADRESSE_H
