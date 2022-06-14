@@ -1,11 +1,13 @@
 #include "publique.h"
 
-publique::publique(adresse adressePerso, date dob)
+
+publique::publique(adresse adressePerso, date dob ,int id, string nom, string prenom, char sexe)
+    :contact(id,nom,prenom,sexe,adressePerso)
 {
-    //ctor
+    this->Setdate(dob);
 }
 
 publique::~publique()
 {
-    //dtor
+    cout << "destruction du contact publique"<<endl;
 }

@@ -9,5 +9,5 @@ date::date(int d, int m, int y)
 
 date::~date()
 {
-    //dtor
+    cout << "destruction de la date"<<endl;
 }

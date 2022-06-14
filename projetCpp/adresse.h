@@ -1,11 +1,13 @@
 #ifndef ADRESSE_H
 #define ADRESSE_H
+#include <iostream>
 
+ using namespace std;
 
 class adresse
 {
     public:
-        adresse(int num, string rue, string ville, int cp);
+        adresse(int num =0, string rue="a", string ville="b", int cp=2);
         virtual ~adresse();
 
         int Getnum() { return num; }

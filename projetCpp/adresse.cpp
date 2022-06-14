@@ -2,10 +2,13 @@
 
 adresse::adresse(int num, string rue, string ville, int cp)
 {
-    //ctor
+    this->Setnum(num);
+    this->Setrue(rue);
+    this->Setcp(cp);
+    this->Setville(ville);
 }
 
 adresse::~adresse()
 {
-    //dtor
+    cout << "destruction de l'adresse "<<endl;
 }

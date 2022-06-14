@@ -5,7 +5,7 @@
 class date
 {
     public:
-        date(int d, int m, int y);
+        date(int d = 1, int m = 1, int y = 1900);
         virtual ~date();
 
         int Gety() { return y; }
