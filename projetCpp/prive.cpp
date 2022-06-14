@@ -39,7 +39,24 @@ void prive::SetnomEntreprise(string val)
 }
 void prive::Setemail(string val)
 {
-    if(val.find_first_of("@")==NULL)
+   // if(val.find_first_of("@")==NULL)
 }
 
+void prive::affiche()
+{
+    string genre;
+    if(this->Getsexe()=='M')
+            {
+                genre = "Mr.";
+            }
+            else
+            {
+                genre = "Mme.";
+            }
+    cout << "Professionnel :"<< Getid()<< endl;
+    cout << genre<<Getnom() <<Getprenom()<<endl;
+    cout << Getadresse().Getrue()<<endl;
+    cout << Getadresse().Getcp()<< Getadresse().Getville()<<endl;
+    cout << "mail :"<< Getemail()<<endl;
+}
 

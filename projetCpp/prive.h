@@ -21,6 +21,8 @@ class prive : public contact
         string Getemail() { return email; }
         void Setemail(string val); // { email = val; }
 
+        void affiche();
+
     protected:
 
     private:

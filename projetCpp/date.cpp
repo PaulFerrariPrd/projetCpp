@@ -1,5 +1,7 @@
 #include "date.h"
 
+#include <iostream>
+
 date::date(int d, int m, int y)
 {
     this->Setd(d);
